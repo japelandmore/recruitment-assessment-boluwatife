@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="18642 -4421 76 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9692b7;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        filter: url(#icon-location);
+      }
+    </style>
+    <filter id="icon-location" x="18642" y="-4421" width="76" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="icon-location-2" data-name="icon-location" class="cls-1" d="M27,38c-3,0-8-7.582-8-12a8,8,0,0,1,16,0C35,30.418,30,38,27,38Zm0-2c.523,0,2.066-1.351,3.459-3.449C31.992,30.242,33,27.637,33,26a6,6,0,1,0-12,0c0,1.637,1.008,4.241,2.541,6.551C24.934,34.649,26.477,36,27,36Zm0-8a2,2,0,1,0-2-2A2,2,0,0,0,27,28Z" transform="translate(18653 -4410)"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="16970 -4366 20 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a2a4c5;
+        font-size: 20px;
+        font-family: MaterialIcons-Regular, Material Icons;
+      }
+    </style>
+  </defs>
+  <text id="settings" class="cls-1" transform="translate(16970 -4346)"><tspan x="0" y="0">settings</tspan></text>
+</svg>

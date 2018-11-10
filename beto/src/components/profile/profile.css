@@ -1,0 +1,182 @@
+.profile-wrapper {
+    display: flex;
+
+}
+
+.profile-main {
+    flex: 1;
+    height: 45rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    box-shadow: 1px 1px 1px 1px rgb(230, 227, 227);
+    border-radius: .4rem;
+}
+
+.profile-text{
+    color: #C4C3C6;
+
+}
+
+.profile-spacing {
+    display: flex;
+    justify-content: space-between;
+    margin: -2rem 5rem;
+}
+
+.profile-edit {
+    width: 30rem;
+    padding: 0 1rem;
+}
+
+
+.name-heading {
+    font-size: 1.2rem;
+    color: #9692B7;
+    margin-bottom: 0.7rem;
+    display: inline-block;
+}
+
+.edit-name {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 4rem;
+}
+
+.edit-each {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.edit-link {
+    font-family: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #D54A69;
+    background-color: #fff;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.edit-link:focus {
+    outline: none;
+    border: none;
+}
+
+.edit-container {
+    display: flex;
+    flex-direction: column
+}
+
+.edit-content {
+    color: #5D5D5D;
+    font-size: 1.2rem;
+    font-weight: 600
+}
+
+.edit-text {
+    color: #939393;
+}
+
+.edit-each::before {
+        content: "";
+        display: inline-block;
+        height: 1.5rem;
+        width: 1.5rem;
+        
+        background-color: #A2A4C5;
+        /* margin-left: 6rem; */
+}
+
+
+.edit-1::before {
+    -webkit-mask-image: url(../../images/phone.svg);
+    -webkit-mask-size: cover;
+    margin-right: -8rem;
+}
+
+.edit-2::before {
+    -webkit-mask-image: url(../../images/phone.svg);
+    -webkit-mask-size: cover;
+    margin-right: -8rem;
+}
+
+.edit-3::before {
+    -webkit-mask-image: url(../../images/mail.svg);
+    -webkit-mask-size: cover;
+    margin-right: -6rem;
+}
+
+.edit-4 {
+    margin-left: -1.2rem;
+    /* margin-top: 4rem */
+}
+
+.edit-4::before {
+    -webkit-mask-image: url(../../images/location.svg);
+    -webkit-mask-size: cover;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: -12rem;
+    margin-top: -.8rem
+}
+
+.edit-5::before {
+    -webkit-mask-image: url(../../images/suitcase.svg);
+    -webkit-mask-size: cover;
+    margin-right: -10rem;
+    
+}
+
+.profile-picture-frame {
+    width: 33rem;
+    height: 33rem;
+    box-shadow: 1px 1px 1px 1px rgb(230, 227, 227);
+    text-align: center;
+    padding-top: 4rem;
+    margin-top: -2rem
+}
+
+.profile-picture {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 7px solid #9692B7;
+    margin-bottom: 5rem;
+}
+
+.pp-change,
+.pp-change:hover,
+.pp-change:focus,
+.pp-change:active{
+    border: none;
+    background-color: #fff;
+    outline: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #D54A69;
+    font-weight: 500;
+    display: flex;
+    cursor: pointer;
+}
+
+.pp-change::before {
+        content: "";
+        display: inline-block;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 1.5rem;
+        background-color: #D54A69;
+        margin-left: 11rem;
+        -webkit-mask-image: url(../../images/edit.svg);
+        -webkit-mask-size: cover;
+}

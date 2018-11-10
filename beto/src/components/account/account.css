@@ -1,0 +1,150 @@
+.account__wrapper {
+    display: flex;
+}
+
+
+.account__content {
+    flex: 1;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.account-card--1 {
+    width: 34rem;
+    background-color: #fff;
+    height: 45rem;
+    box-shadow: 1px 1px 1px 1px rgb(230, 227, 227);
+    border-radius: .3rem;
+    margin-right: 6rem;
+}
+
+.account-heading {
+    padding: 2rem 0 0 1.5rem;
+    font-size: 1.2rem;
+    color: #887BFF;
+    margin-bottom: 7rem
+}
+
+.card-1--space {
+    margin-left: 2rem;
+}
+
+.card-1--content {
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 3rem;
+    /* margin-top: -2rem */
+}
+
+.acc-link {
+    text-decoration: none;
+    color: #767791;
+    font-size: 1.3rem; 
+    display: flex;  
+}
+
+.acc-link::before {
+        content: "";
+        display: inline-block;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 1rem;
+        background-color: #A2A4C5;
+        margin-left: 6rem;
+}
+
+
+.link-1::before {
+    -webkit-mask-image: url(../../images/document.svg);
+    -webkit-mask-size: cover;
+}
+
+.link-2::before {
+    -webkit-mask-image: url(../../images/google.svg);
+    -webkit-mask-size: cover;
+}
+
+.link-3::before {
+    -webkit-mask-image: url(../../images/yahoo.svg);
+    -webkit-mask-size: cover;
+}
+
+.link-4::before {
+    -webkit-mask-image: url(../../images/facebook.svg);
+    -webkit-mask-size: cover;
+}
+
+.link-5::before {
+    -webkit-mask-image: url(../../images/whatsapp.svg);
+    -webkit-mask-size: cover;
+}
+
+.account-card--2 {
+    width: 35rem;
+    height: 20rem;
+    box-shadow: 2px 0px 2px 2px rgb(241, 241, 241);
+    padding-top: 2rem;
+    margin-right: 6rem;
+     border-radius: .3rem
+}
+
+.card-2--heading{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #767791;
+    margin-bottom: 3rem;
+}
+
+.card-2--spacing {
+    margin-left: -3.5rem;
+}
+
+.card-2--content {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.acc-link-2 {
+    text-decoration: none;
+    color: #D54A69;
+    font-size: 1.3rem; 
+    display: flex;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.acc-link-2::before {
+        content: "";
+        display: inline-block;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 1.5rem;
+        background-color: #D54A69;
+        margin-left: 6rem;
+}
+
+.link-6::before {
+    -webkit-mask-image: url(../../images/plus1.svg);
+    -webkit-mask-size: cover;
+}
+
+.link-7::before {
+    -webkit-mask-image: url(../../images/user-plus.svg);
+    -webkit-mask-size: cover;
+}
+
+.link-8::before {
+    -webkit-mask-image: url(../../images/loop2.svg);
+    -webkit-mask-size: cover;
+}
+
+.account-card--3 {
+    width: 25rem;
+    height: 20rem;
+    box-shadow: 2px 0px 2px 2px rgb(241, 241, 241);
+    padding-top: 2rem;
+    margin-right: 6rem;
+    border-radius: .3rem
+}
