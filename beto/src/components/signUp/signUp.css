@@ -31,16 +31,15 @@
 }
 
 .header {
-    margin-top: 3.6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .logo {
-    width: 8rem;
-    height: 8rem;
+    width: 4rem;
+    height: 4rem;
     margin-left: 4.4rem;
 }
 
@@ -58,7 +57,7 @@
 }
 
 .main-nav__item:last-child {
-    margin-right: 16.4rem;
+    margin-right: 8.4rem;
 }
 
 
@@ -67,14 +66,15 @@
     font-weight: 600;
     text-decoration: none;
     color: #767791;
+    font-size: 1.3rem
 }
 
 .background--pink {
-    width: 150rem;
-    max-height: 78rem;
+    width: 170rem;
+    max-height: 83rem;
     position: absolute;
-    top: 0.5rem;
-    right: 50rem;
+    top: -12rem;
+    right: 30rem;
     overflow: hidden;
     z-index: -1000;
 }
@@ -82,8 +82,8 @@
 .input-field {
     width: 35rem;
     background: #fff;
-    margin-left: 23rem;
-    margin-top: 4rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     transition: .5s;
@@ -92,11 +92,12 @@
 #input-field--signin {
     width: 35rem;
     background: #fff;
-    margin-left: 23rem;
-    margin-top: 12rem;
+    margin-left: 20rem;
+    margin-top: 3rem;
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     transition: .5s;
+    height: 45rem;
 }
 
 .input-field__card {
@@ -105,7 +106,7 @@
     margin-right: 6.3rem;
     padding-top: 6rem;
     padding-bottom: 4.07rem;
-    margin-bottom: 3rem;
+    margin-bottom: -3rem;
     
     
 }
@@ -129,12 +130,13 @@
 }
 
 .input-field__card--element {
+    margin-top: -0.7rem;
     display: block;
     margin-bottom: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: inherit;
     color: inherit;
-    padding: 0.5rem .5rem;
+    padding: .7rem .5rem;
     border-radius: 2px;
     background-color: rbga(#fff, .5);
     border: none;
@@ -156,7 +158,8 @@
 
 .input-field__button,
 .input-field__button:link,
-.input-field__button:visited{
+.input-field__button:visited,
+.input-field__button:focus{
     outline: none;
     border: none;
     background-image: linear-gradient(to right, #BF5594, #D54B6A);
@@ -178,7 +181,8 @@
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
-.terms {
+.terms,
+.terms:focus {
     font-size: inherit;
     outline: none;
     border: none;
@@ -192,6 +196,7 @@
 
 .account {
     color: #B7B8C9;
+    margin-bottom: -3rem
 }
 
 .content {
@@ -201,7 +206,7 @@
 
 .hero-text {
     width: 50rem;
-    margin-right: 10rem;
+    margin-right: 4rem;
 }
 
 .hero-text__main {
@@ -210,6 +215,7 @@
     letter-spacing: 0.5rem;
     color: #652D6D;
     margin-bottom: 2.2rem;
+    font-weight: 300
     
 }
 
@@ -220,25 +226,22 @@
     margin-left: 2rem;
     line-height: 2.5rem;
     letter-spacing: .1rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: 900;
     padding-bottom: 4rem;
-    /* border-bottom: 7px solid #D24C70;
-    border-radius: .7rem .7rem .7rem .7rem; */
-    
 }
 
 .hero-text__sub:after {
-width: 26.9rem;
-  content:'';
-  position:absolute;
-  top: 50rem;
-  bottom:0;
-  left:106.5rem;
-  right:0;
-  background: #D24C70;
-  height:6px;
-  border-radius:.7rem .7rem;
+    width: 26.9rem;
+    content:'';
+    position:absolute;
+    top: 48rem;
+    bottom:0;
+    left:97rem;
+    right:0;
+    background: #D24C70;
+    height:6px;
+    border-radius:.7rem .7rem;
 }
 
 .hero-text__sub--space {
@@ -249,5 +252,14 @@ width: 26.9rem;
     text-align: center;
     color: #D54B6A;
     margin-bottom: -3rem;
-    margin-top: 2rem
+    padding-top: 1.5rem;
+    font-size: 1.2rem
+}
+
+.error-text-signin {
+    text-align: center;
+    color: #D54B6A;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    font-size: 1.2rem
 }

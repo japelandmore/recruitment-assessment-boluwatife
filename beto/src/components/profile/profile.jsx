@@ -39,7 +39,7 @@ const Profile = ({isSignedIn, routingHandler}) => {
                 <div className="nav-item">
                   <div className="nav-item__wrap">
                     <button className="nav__link nav__link--nav  nav__link--3 nav__link--setting--active" onClick={() => routingHandler("loggedIn")}>
-                      <span>Accounts</span>
+                      <span>Account</span>
                     </button>
                   </div>
                 </div>

@@ -12,8 +12,7 @@ import location from '../../images/location.svg';
 import user1 from '../../images/user-1.jpg';
 import user2 from '../../images/user-2.jpg';
 import edit from '../../images/edit.svg';
-import menu from '../../images/menu.svg';
-// import user2 from '../../images/user-2.jpg';
+
 class Contact extends Component {
   constructor() {
     super();
@@ -116,9 +115,9 @@ class Contact extends Component {
             </div>
 
             <div className="contact-heading">
-              <h1>Name</h1>
-              <h1>Phone number</h1>
-              <h1>Email</h1>
+            <h1 className="contact-heading-each">Name</h1>
+            <h1 className="contact-heading-each">Phone number</h1>
+            <h1 className="contact-heading-each">Email</h1>
             </div>
             <div className="contacts-wrap">
               <div className="alphabet">A</div>
@@ -154,7 +153,7 @@ class Contact extends Component {
                   <div className="hover-display">
                   <button className="hover-text" onClick={() => routingHandler("profile")}>Desiner at Rexxe</button>
                     <img src={edit} alt="" className="hover-edit" />
-                    <Icon />
+                    <Icon routingHandler={routingHandler}/>
                   </div>
                 </div>
                 <div className="contact-wrapper">
@@ -188,7 +187,7 @@ class Contact extends Component {
                   <div className="hover-display">
                   <button className="hover-text" onClick={() => routingHandler("profile")}>Desiner at Rexxe</button>
                     <img src={edit} alt="" className="hover-edit" />
-                    <Icon />
+                    <Icon routingHandler={routingHandler}/>
                   </div>
                 </div>
               </div>
@@ -229,7 +228,7 @@ class Contact extends Component {
                   <div className="hover-display">
                   <button className="hover-text" onClick={() => routingHandler("profile")}>Desiner at Rexxe</button>
                     <img src={edit} alt="" className="hover-edit" />
-                    <Icon />
+                    <Icon routingHandler={routingHandler}/>
                   </div>
                 </div>
                 <div className="contact-wrapper">
@@ -263,7 +262,7 @@ class Contact extends Component {
                   <div className="hover-display">
                     <button className="hover-text" onClick={() => routingHandler("profile")}>Desiner at Rexxe</button>
                     <img src={edit} alt="" className="hover-edit" />
-                    <Icon />
+                    <Icon routingHandler={routingHandler}/>
                   </div>
                 </div>
               </div>

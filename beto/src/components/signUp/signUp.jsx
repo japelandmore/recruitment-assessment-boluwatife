@@ -1,7 +1,7 @@
 // sign up component.
 // required data: fullname, username, email, password, re-type password
 
-import React, { Component } from "react";
+import React from "react";
 
 // import css file
 import "./signUp.css";

@@ -33,7 +33,7 @@
 
 .user-info__name {
     
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: -1rem;
 }
@@ -231,8 +231,8 @@ hr {
     margin-right: 2rem;
     margin-left: -7rem;
     position: absolute;
-    top: 10.3rem;
-    right: 21rem;
+    top: 7.5rem;
+    right: 20rem;
     background-color: rgb(219, 219, 223);
     margin-left: 6rem;
     -webkit-mask-image: url(../../images/search.svg);
@@ -267,7 +267,7 @@ hr {
     height: 3rem;
     width: 3rem;
     position: absolute;
-    top: 9.3rem;
+    top: 6.5rem;
     right: 5rem;
     background-color: #9692B7;
     margin-left: 6rem;
@@ -283,7 +283,7 @@ hr {
     margin-right: 2rem;
     margin-left: -7rem;
     position: absolute;
-    top: 9.7rem;
+    top: 6.7rem;
     right: 12rem;
     background-color: rgb(219, 219, 223);
     margin-left: 6rem;
@@ -312,6 +312,10 @@ hr {
     margin-bottom: 3rem;
 }
 
+.contact-heading-each {
+    font-size: 1.2rem
+}
+
 .contact-field__wrapper {
     width: 100%;
     /* margin: 0 auto; */
@@ -329,7 +333,8 @@ hr {
     font-weight: 600;
     color: #767791;
     margin-left: 6rem;
-    margin-right: 4rem
+    margin-right: 4rem;
+    margin-top: -2rem
 }
 
 .contact-wrapper {
@@ -437,7 +442,6 @@ hr {
 }
 
 .hover-display {
-    /* display: flex; */
     align-items: center;
     margin-top: 2rem;
     margin-left: 2rem;
@@ -454,7 +458,8 @@ hr {
     border: none;
     outline: none;
     background-color: #fff;
-    cursor: pointer
+    cursor: pointer;
+    font-size: 1.2rem
 }
 
 .hover-text::after {
@@ -463,7 +468,7 @@ hr {
     height: 1.5rem;
     width: 1.5rem;
     background-color: rgb(224, 221, 42);
-    margin-left: 6rem;
+    margin-left: 3rem;
     -webkit-mask-image: url(../../images/star.svg);
     -webkit-mask-size: cover;
     margin-right: 3rem;
@@ -472,16 +477,28 @@ hr {
 
 .hover-edit
  {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
     margin-right: 5rem;
     margin-top: -1rem
 }
 
 .hover-btn {
     float: right;
-    margin-top: -2.5rem;
-    margin-left: 4rem
+    margin-top: -2.2rem;
+    margin-left: 4rem;
+}
+
+
+.view-details,
+.view-details:link,
+.view-details:visited,
+.view-details:focus{
+    text-decoration: none;
+    border: none! important;
+    outline: none! important;
+    cursor: pointer;
+    
 }
 
 

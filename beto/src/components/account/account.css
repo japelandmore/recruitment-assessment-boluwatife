@@ -11,12 +11,12 @@
 }
 
 .account-card--1 {
-    width: 34rem;
+    width: 30rem;
     background-color: #fff;
     height: 45rem;
     box-shadow: 1px 1px 1px 1px rgb(230, 227, 227);
     border-radius: .3rem;
-    margin-right: 6rem;
+    margin-right: 4rem;
 }
 
 .account-heading {
@@ -85,7 +85,7 @@
     height: 20rem;
     box-shadow: 2px 0px 2px 2px rgb(241, 241, 241);
     padding-top: 2rem;
-    margin-right: 6rem;
+    margin-right: 4rem;
      border-radius: .3rem
 }
 
@@ -145,6 +145,21 @@
     height: 20rem;
     box-shadow: 2px 0px 2px 2px rgb(241, 241, 241);
     padding-top: 2rem;
-    margin-right: 6rem;
+    margin-right: 10rem;
     border-radius: .3rem
+}
+
+.link-7,
+.link-7:link,
+.link-7:link:visited,
+.link-7:link:focus {
+    outline: none !important;
+    border:none !important;
+    text-decoration: none;
+    color: #D54A69;
+    font-size: 1.3rem; 
+    display: flex;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
 }

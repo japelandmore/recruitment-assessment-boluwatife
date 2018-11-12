@@ -21,6 +21,7 @@ export default class Icon extends Component {
     }
 
     render() {
+        const {routingHandler} = this.props;
         return <div>
             <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
               <DropdownToggle tag="span" data-toggle="dropdown" aria-expanded={this.state.dropdownOpen} >
@@ -29,8 +30,8 @@ export default class Icon extends Component {
                 </div>
               </DropdownToggle>
               <DropdownMenu className="move-right" >
-                <DropdownItem>
-                  View details
+                <DropdownItem  onClick={() => routingHandler("profile")} className="view-details">
+                 View Detail
                 </DropdownItem>
                 <DropdownItem>
                   Star

@@ -10,7 +10,7 @@ import Account from "./components/account/account.jsx";
 import Profile from "./components/profile/profile.jsx";
 
 const initialState = {
-  user: [],
+  user: [{email: "test@test.com", password: "test"}],
   fullName: "",
   userName: "",
   email: "",
@@ -209,18 +209,9 @@ class App extends Component {
     if (route === "loggedIn") {
       this.setState({ isSignedIn: true });
     }
-    this.setState({ route: route });
+    this.setState({ route: route, errorText: "" });
   };
 
-  // onRouteChange = (route) => {
-  //   if (route === 'SignOut') {
-  //     window.sessionStorage.removeItem('token');
-  //     return this.setState(initialState)
-  //   } else if (route === "Home") {
-  //     this.setState({ isSignedIn: true })
-  //   }
-  //   this.setState({ route: route })
-  // }
   render() {
     const { route, errorText, error, isSignedIn } = this.state;
 

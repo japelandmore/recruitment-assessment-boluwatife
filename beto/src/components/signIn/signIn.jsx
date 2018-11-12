@@ -73,7 +73,7 @@ const Signin = ({ error, errorText, loginEmail, loginPassword, signinValidation,
             </div>
           </div>
         </div>
-      </div> : <div className="wrapper">
+    </div> : <div className="wrapper">
         <div className="header">
           <img src={logo} alt="app-logo" className="logo" />
 
@@ -98,29 +98,26 @@ const Signin = ({ error, errorText, loginEmail, loginPassword, signinValidation,
           <img src={backgroundPink} alt="background-pink" />
         </div>
         <div className="content">
-          <div className="input-field">
-            {/* the error text goes here */}
-            <h3 className="error-text">{errorText}</h3>
+          <div id="input-field--signin">
             <div className="input-field__card">
+              {/* the error text goes here */}
+              <h3 className="error-text-signin">{errorText}</h3>
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" className="input-field__card--element" onChange={loginEmail} />
-              
-                        <label htmlFor="password">Password</label>
-                        <input type="password" name="password" className="input-field__card--element" onChange={loginPassword} />
+              <input type="E-mail" name="email" className="input-field__card--element" onChange={loginEmail} />
+
+              <label htmlFor="password">Password</label>
+              <input type="password" name="password" className="input-field__card--element" onChange={loginPassword} />
+
               <div className="input-field__footer">
                 <p>
                   By signing up, you agree to our <button className="terms">
                     Terms & Condition
-                  </button> and read our <button className="terms">
-                    {" "}
-                    Privacy Policy
-                  </button>
+                  </button> and read our
+                  <button className="terms"> Privacy Policy</button>
                 </p>
-
                 <button className="input-field__button" onClick={signinValidation}>
                   Login
                 </button>
-
                 <p>
                   <span className="account">Dont have an account?</span> <button className="terms" onClick={() => routingHandler("register")}>
                     Get Stated
@@ -145,8 +142,11 @@ const Signin = ({ error, errorText, loginEmail, loginPassword, signinValidation,
             </div>
           </div>
         </div>
-      </div>;
+      </div>
+      
 }
 
 export default Signin;
        
+
+

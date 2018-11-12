@@ -133,7 +133,7 @@ const Account = ({isSignedIn, routingHandler}) => {
               <div className="card-2--content">
                 <button className="acc-link-2 link-7" onClick = {() => routingHandler("profile")}>
                   Edit Profile
-                        </button>
+                </button>
               </div>
             </div>
           </div>
